@@ -1,0 +1,42 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+.venv-1/
+.venv-2/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ChromaDB generated database and vector storage
+Chroma-db/
+chroma_db/
+chroma.sqlite3
+
+# Hugging Face and model caches
+.cache/
+.cache/huggingface/
+models/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
