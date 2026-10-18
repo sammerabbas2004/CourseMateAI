@@ -48,4 +48,4 @@ while True:
         "question":query
     })
     response=llm.invoke(final_prompt)
-    print(f"\n AI: {response.content}")
+    print(f"Assistant: {response}")
